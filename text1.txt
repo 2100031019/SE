@@ -1,0 +1,6 @@
+this is siva from macherla
+#include<stdio.h>
+int main(){
+printf("Hello world!);
+}
+
