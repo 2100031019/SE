@@ -1,0 +1,197 @@
+
+siva@DESKTOP-68G35OT MINGW64 ~
+$ ls
+ -1.14-windows.xml    Envs/                    NTUSER.DAT                                                                                     PycharmProjects/   cd/                  ntuser.ini
+'3D Objects'/         Favorites/               NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TM.blf                                        Recent@            dbms                 send_mails
+ AppData/             Insert.py                NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TMContainer00000000000000000001.regtrans-ms  'Saved Games'/      eclipse/             send_mails.py
+'Application Data'@   IntelGraphicsProfiles/   NTUSER.DAT{1c2b59c6-c5f5-11eb-bacb-000d3a96488e}.TMContainer00000000000000000002.regtrans-ms   Searches/          eclipse-workspace/   sql.py*
+ Contacts/            Links/                   NetHood@                                                                                       SendTo@           'git commands'        sqllite2.py*
+ Cookies@            'Local Settings'@         OneDrive/                                                                                     'Start Menu'@       ii/                  test.db
+ Desktop/             MYSQL                    Pictures/                                                                                      Templates@         mails.csv            threding.java
+ Documents/           Music/                   PrintHood@                                                                                     Videos/            ntuser.dat.LOG1
+ Downloads/          'My Documents'@           Projects/                                                                                      app.py             ntuser.dat.LOG2
+
+siva@DESKTOP-68G35OT MINGW64 ~
+$ cd c;
+bash: cd: c: No such file or directory
+
+siva@DESKTOP-68G35OT MINGW64 ~
+$ cd c:
+
+siva@DESKTOP-68G35OT MINGW64 /c
+$ cd E:
+
+siva@DESKTOP-68G35OT MINGW64 /e
+$ ls
+'$MfeDeepRem'/  '$RECYCLE.BIN'/  'System Volume Information'/   javaprograms/   keerthana/
+
+siva@DESKTOP-68G35OT MINGW64 /e
+$ cd keerthana
+
+siva@DESKTOP-68G35OT MINGW64 /e/keerthana (master)
+$ cd se
+
+siva@DESKTOP-68G35OT MINGW64 /e/keerthana/se (main)
+$ ls
+LICENSE  README.md  text1.txt
+
+siva@DESKTOP-68G35OT MINGW64 /e/keerthana/se (main)
+$ cat text1.txt
+this is siva from macherla
+#include<stdio.h>
+int main(){
+printf("Hello world!);
+}
+
+
+siva@DESKTOP-68G35OT MINGW64 /e/keerthana/se (main)
+$ vi text2.txt
+
+siva@DESKTOP-68G35OT MINGW64 /e/keerthana/se (main)
+$ cat text2.txt
+this is siva
+2100031019
+kluniversity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+warning: in the working copy of 'text2.txt', LF will be replaced by CRLF the next time Git touches it
+Aborting commit due to empty commit message.
+
+siva@DESKTOP-68G35OT MINGW64 /e/keerthana/se (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   text1.txt
+        new file:   text2.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SE/
+
+
+siva@DESKTOP-68G35OT MINGW64 /e/keerthana/se (main)
+$ git commit-m text2.txt
+git: 'commit-m' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit-tree
+
+siva@DESKTOP-68G35OT MINGW64 /e/keerthana/se (main)
+$ git commit-m text2.txt:
+git: 'commit-m' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit-tree
+
+siva@DESKTOP-68G35OT MINGW64 /e/keerthana/se (main)
+$ git commit -m text2.txt:
+[main bdcba9e] text2.txt:
+ 2 files changed, 12 insertions(+)
+ create mode 100644 text1.txt
+ create mode 100644 text2.txt
+
+siva@DESKTOP-68G35OT MINGW64 /e/keerthana/se (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 500 bytes | 500.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/2100031019/SE.git
+   fee92a4..bdcba9e  main -> main
+
+siva@DESKTOP-68G35OT MINGW64 /e/keerthana/se (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SE/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+siva@DESKTOP-68G35OT MINGW64 /e/keerthana/se (main)
+$ pwd
+/e/keerthana/se
+
+siva@DESKTOP-68G35OT MINGW64 /e/keerthana/se (main)
+$ git barnch
+git: 'barnch' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+siva@DESKTOP-68G35OT MINGW64 /e/keerthana/se (main)
+$ git branch
+* main
+
+siva@DESKTOP-68G35OT MINGW64 /e/keerthana/se (main)
+$ git pull
+Already up to date.
+
+siva@DESKTOP-68G35OT MINGW64 /e/keerthana/se (main)
+$ ^C
+
+siva@DESKTOP-68G35OT MINGW64 /e/keerthana/se (main)
+$
+
